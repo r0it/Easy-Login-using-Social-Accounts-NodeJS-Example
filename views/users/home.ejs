@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<div class="page-header text-center">
+    <h1><span class="fa fa-anchor"></span> Home Page</h1>
+    <a href="/signout" class="btn btn-default btn-sm">Logout</a>
+</div>
+
+<div class="row">
+    <div class="jumbotron text-center">
+        <div id="user">
+            <h2 class="text-center login-title">Welcome <%= user.firstName %>. Check your details below:
+            </h2>
+            <div class="signup-wall">
+                <ul class="user-details">
+                    <li>Email    ---> <%= user.email %></li>
+                    <li>First Name ---> <%= user.firstName %></li>
+                    <li>Last Name ---> <%= user.lastName %></li>
+                    <li>Display Name ---> <%= user.displayName %> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% include ../partials/footer %>
