@@ -1,7 +1,7 @@
 Easy Login using Social Accounts NodeJS Example
 ==============
 
-Take a look at the example here [Easy Login using Social Accounts](https://easy-social-auth.herokuapp.com/).
+Take a look at the example here [Easy Login using Social Accounts](https://easy-social-auths.herokuapp.com/).
 
 This repository serves as an example for a basic Node.js application which is using [Passport](http://passportjs.org/) as the authentication middleware for authenticating using Facebook, Google+, LinkedIn and storing the details in a locally configured Mongo backend
 
